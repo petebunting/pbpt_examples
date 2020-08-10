@@ -121,7 +121,7 @@ class FindSen2ScnsGenDwnlds(PBPTGenQProcessToolCmds):
         #                         run_script='run_exe_analysis.sh', job_dir="job_scripts",
         #                         db_info_file=None, account_name='scw1376', n_cores_per_job=5, n_jobs=2,
         #                         job_time_limit='2-23:59',
-        #                         module_load='module load parallel singularity\n\nexport http_proxy="http://a.pfb:proxy101019@10.212.63.246:3128"\nexport https_proxy="http://a.pfb:proxy101019@10.212.63.246:3128"\n')
+        #                         module_load='module load parallel singularity\n\n')
 
     def run_check_outputs(self):
         process_tools_mod = 'perform_dwnld_jobs'

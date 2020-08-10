@@ -29,7 +29,7 @@ class PerformScnARD(PBPTQProcessTool):
                                        "GreenVegetation", 0, None, None, False, None, None, None, None, False,
                                        None, None, self.params['tmp_dir'], 0.05, 0.5, 0.1, 0.4, self.params['dem'],
                                        None, None, True, 20, False, False, 1000, "cubic", "near", 3000, 3000, 1000, 21,
-                                       True, False, False, None, None, True, None, 'S2LESSFMSK')
+                                       True, False, False, None, None, True, None, 'LSMSK')
             scn_rcd_obj.set_scn_ard(self.params['product_id'], self.params['sensor'], self.params['ard_path'])
         elif ard_processed:
             scn_rcd_obj.set_scn_ard(self.params['product_id'], self.params['sensor'], self.params['ard_path'])
