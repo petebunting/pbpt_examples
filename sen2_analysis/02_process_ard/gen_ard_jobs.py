@@ -49,8 +49,8 @@ class FindSen2ScnsGenDwnlds(PBPTGenQProcessToolCmds):
         self.check_job_outputs(process_tools_mod, process_tools_cls, out_err_file, out_non_comp_file)
 
     def run_remove_outputs(self, all_jobs=False, error_jobs=False):
-        process_tools_mod = 'create_granule_veg_msk'
-        process_tools_cls = 'CreateGranuleVegMsk'
+        process_tools_mod = 'perform_ard_process'
+        process_tools_cls = 'PerformScnARD'
         self.remove_job_outputs(process_tools_mod, process_tools_cls, all_jobs, error_jobs)
 
 
