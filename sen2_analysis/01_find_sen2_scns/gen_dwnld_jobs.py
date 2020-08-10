@@ -5,7 +5,7 @@ import logging
 import sqlite3
 import statistics
 import os
-arcsilib.arcsiscnprocessdb import RecordScn2Process
+from arcsilib.arcsiscnprocessdb import RecordScn2Process
 
 
 logger = logging.getLogger(__name__)
